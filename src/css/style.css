@@ -1,0 +1,36 @@
+/*
+ * Main CSS entry point.
+ * This file imports all other stylesheets.
+ * Order is important for the cascade.
+*/
+
+@import url('_base.css');
+@import url('_header.css');
+@import url('_components.css');
+@import url('_pages.css');
+@import url('_dark-mode.css');
+@import url('_responsive.css');
+
+/* ==========================================================================
+   TABLE OF CONTENTS
+   ==========================================================================
+   1.  Root Variables & Global Styles
+   2.  Accessibility & Utilities
+   3.  Layout (Container, Card, Grid)
+   4.  Header & Navigation
+   5.  Components
+       - Metrics Panel
+       - Calculators & Trackers
+       - Buttons
+       - Alerts & Links
+       - Tooltips
+       - Theme Switch
+   6.  Page-Specific Styles
+       - Profile Page
+       - Visa Page
+       - Documents Page
+       - Timeline Page
+       - Contact Page
+   7.  Dark Mode Overrides
+   8.  Responsive Media Queries
+   ========================================================================== */
